@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    background-color:  #E7E5C1;
+    margin: 0;
+    
+    }
+
+
+
+.home {
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.home:hover {
+    
+    background-color: #3bd48063;
+    width: 300px;
+    
+}
+
+.noticias {
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.noticias:hover {
+    background-color: #3bd48063;
+    width: 300px;
+}
+
+.curiosidades {
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.curiosidades:hover {
+    background-color: #3bd48063;
+    width: 300px
+}
+
+.faleconosco {
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.faleconosco:hover {
+    background-color: #3bd48063;
+    width: 300px
+}
+
+header {
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(to top, #1A5C38, #3AD07E);
+    color: white;
+    
+}
+
+header > h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size: 60px;
+     margin: 0;
+     padding: 27px;
+     box-sizing: border-box;
+     font-weight: lighter;
+     height: 100px;
+     box-sizing: border-box;
+   
+}
+
+header > p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: none;
+    font-weight: lighter;
+
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: left;
+    position: relative;
+    
+}
+
+p {
+    text-indent: 20px;
+}
+
+
+
+
+section {
+    background-color: white;
+    box-shadow: 5px, 5px, 15px rgba(138, 109, 93, 0.616);
+    width: 900px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 9px 0 rgba(0, 0, 0, 0.384);
+    
+}
+
+
+.section > h1 {
+    margin: 0;
+}
+
+.section > p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 20px;
+    font-style: oblique;
+}
+
+.titulotabela {
+    text-align: left;
+    background-color: #84e1aca6;
+    color: white;
+    background-image: linear-gradient(to top, #0e4e2bc4, #3bd480c7);
+    background-color: #84E1AD;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tabela {
+    text-align: left;
+    background-color: #84E1AD;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #0e4e2bc4 ;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer > p {
+    margin: 0;
+}
+
+
+h2 {
+    text-align: left;
+    text-indent: 20px;
+    color: #2C6947;
+    
+}
+
+p {
+    text-indent: 40px;
+}
+
+
+.historia > h2 {
+    font-family: 'idroid', 'Arial Narrow', Arial, sans-serif;
+    color: #1A5C38;
+    font-size: 20px;
+    border-radius: 2px; 
+    padding: 0px;
+    margin: 0px 0px 0px 4px;
+  
+}
+
+.historia > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+      
+}
+
+.tabela > h1 {
+    background-image: linear-gradient(to top, #2FA866 );
+    background-color: #3AD07E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+    margin: 0;
+    
+    
+}
+
+.tabela > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    background-color: #C5EBD6;
+    margin: 0;
+    
+      
+}
+
+.tabela > ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(27, 27, 27);
+    font-size: 16px;
+    background-color: #C5EBD6;
+    margin: 0;   
+}
+
+    
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+      
+}
+
+iframe {
+    width: 900px;
+    height: 400px;
+
+}
+
+picture {
+    margin: 50px;
+}
+
+.bugdroid > img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.versao {
+    background-image: linear-gradient(to right, #3ad07e75 );
+    background-color: #3ad07e34;
+    
+}
+
+.mascote { 
+    background-image: linear-gradient(to right, #3ad07e75 );
+    background-color: #3ad07e34;
+    text-decoration: solid;
+    text-shadow: none;
+    text-overflow: clip;
+}
+
+a {
+    font-family: monospace;
+    color: #005526;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a > img {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 10px;
+}
+
+
+.guanabara {
+    font-family: monospace;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.curso {
+    font-family: monospace;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+       
